@@ -126,55 +126,92 @@ th {
     background-color: #2a5298;
     color: white;
 }
+tr:hover {
+    background-color: #f1f1f1;
+}
 .box-amarela {
     background: yellow;
     width: 25px; 
     height: 25px;
     border-radius: 4px;
 }
-.kit-alimentacao ul {
+.box-cinza {
+    background: #ccc;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.box-laranja {
+    background: orange;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.box-marrom {
+    background: #8B4513;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.box-preta {
+    background: black;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.box-rosa {
+    background: pink;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.box-roxa {
+    background: purple;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.box-verde {
+    background: green;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.box-vermelho {
+    background: red;
+    width: 25px; 
+    height: 25px;
+    border-radius: 4px;
+}
+.lista-itens {
     list-style: none;
-    background-color: #f5f1df;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    border-style: dashed;
-    border-width: 1px;
-    border-color: #b9a705;
-}
-.kit-alimentacao ul li {
-    margin: 12px 0;
-    color: #6d6202;
-}
-.suplementos {
-    background-color: rgb(255, 251, 251);
-    border-left: rgba(199, 3, 3, 0.719) solid 5px;
-}
-.lista-amarela ul{
-    list-style: none;
-    color: #6d6202;
     padding: 0;
 }
-.lista-amarela ul li {
+.lista-itens li {
     margin: 10px 0;
+    color: #856404;
+    font-size: 1.1rem;
+}
+.suplementos {
+    background-color: rgb(255, 250, 250);
+    border-left: rgba(199, 3, 3, 0.719) solid 5px;
 }
 .container-amarelo {
-    background-color: #fffdf7;
+    background-color: #fdf5dd;
     padding: 20px;
     border-left: rgb(224, 224, 8) solid 5px;
 }
-.container-amarelo ul{
-    list-style: none;
-    color: #6d6202;
-    padding: 0;
-}
-.container-amarelo ul li {
-    margin: 10px 0;
-}
 footer{
-    background-color: #2e4c82;
+    background-color: #1e3c72;
     color: white;
-    padding: 20px;
+    padding:  30px 20px;
     text-align: center;
-    border-top: 3px solid #f0e004;
+    border-top: 4px solid #ffd700;
+    font-size: 0.85rem;
+    margin-top: 50px;
+}
+footer p 
+{
+    margin: 8px 0;
+    opacity: 0.9;
 }
