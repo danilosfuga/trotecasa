@@ -210,8 +210,37 @@ footer{
     font-size: 0.85rem;
     margin-top: 50px;
 }
-footer p 
-{
+footer p {
     margin: 8px 0;
     opacity: 0.9;
+}
+.evento{
+    margin-bottom: 25px;
+    position: relative; 
+}
+.evento::before{
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #ff4b2b;
+  border-radius: 50%;
+  position: absolute;
+  left: -28px;
+  top: 5px;
+}
+.timeline{
+    border-left: solid #2a5298 3px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.grid-locais {
+    display: flex;
+    gap: 20px;
+}
+.unidade{
+    flex: 1;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
 }
